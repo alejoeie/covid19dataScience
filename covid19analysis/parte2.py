@@ -35,6 +35,8 @@ class analisis(procesa_archivos):
         norm = tdf.groupby(['month_x', 'year_x']).sum()
         return norm
 
+    def get_file(self):
+        return self.filePath
 
       
 
