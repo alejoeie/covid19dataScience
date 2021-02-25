@@ -58,9 +58,3 @@ class procesa_archivos():
         self.filePath  = self.set_new_params()
         self.filePath = self.filePath.T
         return self.filePath 
-
-
-
-# confirmed = procesa_archivos('../datos/time_series_covid19_confirmed_global.csv')
-# print(confirmed.get_dataframe())
-# print(confirmed.get_dataframe())
